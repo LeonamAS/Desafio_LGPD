@@ -25,3 +25,14 @@ function Enviar() {
     }
 
 }
+
+function Termos () {
+    let checkbox = document.getElementById("aceitarTermos").required;
+
+    if(checkbox == true){
+        console.log("worked!")
+            
+        } else {
+          console.log("try again!")
+        } 
+}
